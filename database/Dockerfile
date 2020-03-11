@@ -1,0 +1,7 @@
+#This dockerfile for cart database
+#DOCKERCOMMAND Options
+FROM mysql:5.7
+ENV MYSQL_ROOT_PASSWORD=root123
+ENV MYSQL_DATABASE=mydatadb
+ENV MYSQL_USER=mydbuser
+ENV MYSQL_PASSWORD=test123
